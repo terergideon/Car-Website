@@ -1,0 +1,45 @@
+.wrap {
+    width: 100%;
+    overflow:auto;
+}
+
+.fleft {
+  background-image: url();
+    float:left;
+    width: 33%;
+    background:lightblue;
+    height: 400px;
+    font-size: 20px;
+}
+
+.fcenter{
+    float:left;
+    width: 33%;
+    background:lightgreen;
+    height:400px;
+    margin-left:0.25%;
+      font-size: 20px;
+}
+
+.fright {
+float: right;
+    background:pink;
+    height: 400px;
+    width: 33.5%;
+      font-size: 20px;
+
+
+}
+.fbottom{
+  float: bottom;
+      background:pink;
+      height: 200px;
+      width: 100%;
+        font-size: 20px;
+
+}
+.cont2{
+  background-color: purple;
+  background-repeat: repeat-x;
+  ba
+}
