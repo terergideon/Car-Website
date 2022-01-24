@@ -1,0 +1,35 @@
+body {
+    font-family: "poppins", sans-serif !important;
+}
+
+.about-us {
+    padding: 130px 0;
+    color: #ffffff;
+    background: url('/images/black.jpg') center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.about-us .items span {
+    font-size: 30px;
+    color: #e0a80d;
+    margin: 0;
+    padding: 0;
+}
+
+.about-us .items h3 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #ffffff !important;
+    margin: 0;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.about-us .items h4 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}

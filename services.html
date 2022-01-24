@@ -5,11 +5,20 @@
     <meta charset="utf-8">
     <title></title>
     <!-- the css link -->
-    <link rel="stylesheet" href="assets/css/style1.css">
+    <link rel="stylesheet" href="assets/css/main.css">
     <!-- bootstrap links -->
+
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/tyle3s.css" type="text/css">
+
+    <!--  css-->
+    <link rel="stylesheet" href="assets/css/services.css" type="text/css">
+    <!-- google fonts -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+    <!-- bootstrap links -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -17,10 +26,7 @@
 
     <style media="screen">
         body {
-            background-color: purple;
             background-size: auto;
-            background-image: url(/images/fastones.webp);
-            background-size: cover;
             scroll-behavior: smooth;
         }
         
@@ -61,7 +67,7 @@
           >
         </li>
         <li class="navbar__item">
-          <a href="#models" class="navbar__links" id="services-page"
+          <a href="#Photo-Gallery" class="navbar__links" id="services-page"
             >Photo Gallery</a
           >
         </li>
@@ -73,40 +79,76 @@
     </nav>
 
     <!-- end of the navbar section -->
-    <div class="caption">
-        <caption>
-            <h1 class="text-white" style="padding-top: 80px;">THE SERVICES WE OFFER</h1>
-        </caption>
+    <!-- the sliding services -->
+    <section class="carousel" style="background-color: darkkhaki;">
+        <div id="demo" class="carousel slide" data-ride="carousel">
 
-    </div>
-    <div id="demo" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
 
-        <!-- The slideshow -->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <h1 class="text-danger" style="padding-top: 90px;">We sell new bmw cars at afforadable prices</h1>
-                <div class="carousel-caption">
-                    <h1>About choice of the model</h1>
-                    <p>Learn more about us</p>
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/images/financing.jpg" alt="">
+                    <div class="carousel-caption text-danger">
+                        <h1>Financing ,$ Balancing</h1>
+                        <p>Learn more about us</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/car build.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h1>Invention AND Art</h1>
+                        <p>Top Car Designers and Tech Experts</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/carsharing.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h1>Client Car Sharing</h1>
+                        <p>IN use by more than One</p>
+                    </div>
                 </div>
             </div>
-            <div class="carousel-item">
-                <h1>we sell and market all bmw transport systems and spareparts</h1>
-                <div class="carousel-caption">
-                    <h1>The most recent invention</h1>
-                    <p>Get yourself the best car</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <h1>we offer trainings to mechanics of our company</h1>
-                <div class="carousel-caption">
-                    <h1>choose the model you want!</h1>
-                    <p>We are the best for a ride</p>
-                </div>
-            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
         </div>
+    </section>
+    <div class="jumbotron text-md-center bg-dark text-white">
+        <h1 class="display-4">Why Best</h1>
+        <p class="lead"></p>
+        <hr class="my-4">
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minim
+            <ul class="text-success" style="list-style-type: none;">
+                <li>
+                    Affordable ones
+                </li>
+                <li>
+                    Fancy ones
+                </li>
+                <li>
+                    Fancy ones
+                </li>
+                <li>
+                    Safety ones
+                </li>
+                <li>
+                    Durability ones
+                </li>
 
-
+            </ul>
+        </h3>
+    </div>
 </body>
 
 </html>

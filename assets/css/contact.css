@@ -1,0 +1,49 @@
+body {
+    font-family: "poppins" sans-serif !important;
+    background-color: black;
+    background-image: url(/images/black3.jpg);
+    background-attachment: fixed;
+    color: white;
+}
+
+.container {
+    max-width: 500px;
+    margin: 2rem auto;
+    border: 2px solid white;
+    padding: 2rem;
+    border-radius: 16px;
+}
+
+#label {
+    display: block;
+    padding: 1rem 0 .25rem;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+input,
+textarea {
+    font-family: sans-serif;
+    width: 200px;
+    margin: 30px;
+    height: 30px;
+    align-items: center;
+}
+
+.location {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+#sendBtn {
+    border: 0;
+    background: #343050;
+    padding: .5rem;
+    color: white;
+    margin: 1rem 0;
+    width: auto;
+    text-transform: uppercase;
+    cursor: pointer;
+}
